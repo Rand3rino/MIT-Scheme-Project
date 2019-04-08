@@ -20,7 +20,7 @@ e
 (define list1 (list 1 2 3 4))
 (define list2 (list 5 6 7 8))
 (map + list1 list2 )
-
+(map * list1 list2 )
 
 ;;; 6
 (define (fib x) 
