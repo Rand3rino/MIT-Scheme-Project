@@ -33,7 +33,8 @@ e
 (fib 10)
 
 ;;; 8
-;(define (fib-list x) 
+(define (fib-list x) 
+	(map fib (create-list 1 x)))
 
 
 ;;; 10
